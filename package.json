@@ -1,0 +1,38 @@
+{
+  "name": "@interlinear/abbreviations",
+  "version": "1.0.0",
+  "description": "Common abbreviations for interlinear glossing",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js | tap-mocha-reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interlinear/abbreviations.git"
+  },
+  "keywords": [
+    "interlinear",
+    "abbreviations",
+    "gloss",
+    "linguistics"
+  ],
+  "author": "Ben Chauvette",
+  "license": "0BSD",
+  "bugs": {
+    "url": "https://github.com/interlinear/abbreviations/issues"
+  },
+  "homepage": "https://github.com/interlinear/abbreviations#readme",
+  "devDependencies": {
+    "eslint": "7.12.1",
+    "eslint-config-prettier": "6.15.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "prettier": "2.1.2",
+    "tap-mocha-reporter": "5.0.1",
+    "zora": "4.0.0"
+  },
+  "files": [
+    "index.js",
+    "leipzig.js"
+  ]
+}
